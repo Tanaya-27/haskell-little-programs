@@ -5,7 +5,7 @@ A small collection of tasks to build my competency in haskell; these are loosely
 This basic project offers essential numerical operations, including functions to calculate double and quadruple values, identify smallest and largest numbers between inputs, and compute the difference between the largest and smallest values.
 
 ## typesAndClasses.hs
-This Haskell code defines a set of functions and values, showcasing various aspects of Haskell's type system and function definitions. It includes examples of basic data types (such as Bool, Int, Char, and String) as well as function definitions with different parameter types and return values. Additionally, it demonstrates the use of tuples and lists in Haskell. The provided functions cover operations like copying a value, creating a list with a single element, accessing the first element of a tuple, selecting the second argument, and multiplying two numbers.
+In this project, various type declarations (```e1, e2, ..., e8```) are defined, covering a range of types from boolean lists to functions. It also introduces functions (```copy```, ```one```, ```first```, ```second```, ```mult```) that demonstrate diverse capabilities, including value replication, list creation, tuple element extraction, two-argument function manipulation, and higher-order multiplication.
 
 ## functions.hs
 This project includes multiple methods: 
@@ -15,3 +15,4 @@ This project includes multiple methods:
 - and an efficient list reversal function ```fastrev``` by utilising an auxiliary recursive function ```rev```.
 
 ## stringCompression.hs
+This Haskell project includes functions for run-length encoding and decoding. The ```chomp``` function removes repeated characters, ```munch``` and ```runs``` group characters into runs, ```encode``` encodes runs with character-frequency pairs, and ```flatten``` converts the encoding into a string. The ```compress``` function combines these steps, while ```decode``` and ```expand``` handle decoding. The ```decompress``` function utilizes these functions to decompress a compressed string. Together, these functions showcases a simple example of data compression and decompression techniques using run-length encoding.
