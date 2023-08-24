@@ -5,6 +5,7 @@ A small collection of tasks to build my competency in haskell; these are loosely
 This basic project offers essential numerical operations, including functions to calculate double and quadruple values, identify smallest and largest numbers between inputs, and compute the difference between the largest and smallest values.
 
 ## typesAndClasses.hs
+This Haskell code defines a set of functions and values, showcasing various aspects of Haskell's type system and function definitions. It includes examples of basic data types (such as Bool, Int, Char, and String) as well as function definitions with different parameter types and return values. Additionally, it demonstrates the use of tuples and lists in Haskell. The provided functions cover operations like copying a value, creating a list with a single element, accessing the first element of a tuple, selecting the second argument, and multiplying two numbers.
 
 ## functions.hs
 This project includes multiple methods: 
